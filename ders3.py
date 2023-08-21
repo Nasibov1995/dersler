@@ -30,14 +30,14 @@
 #         break
 #     print(x)
 
-metn = input(' Metn daxil edin : ')
+# metn = input(' Metn daxil edin : ')
 
-say = int(input(' Eded daxil edin : '))
+# say = int(input(' Eded daxil edin : '))
 
-i = 0
-while i < say:
-    i += 1
-    print(str(i) + '. ' +metn) 
+# i = 0
+# while i < say:
+#     i += 1
+#     print(str(i) + '. ' +metn) 
     
 
 

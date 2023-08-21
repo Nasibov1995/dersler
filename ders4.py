@@ -252,7 +252,212 @@
 
 # print(tuple3)
 
+# a = [1,2,3,4,5,6,7,8,9,10,11,12]
+
+
+# for i in a:
+#     if i % 3 == 0:
+#         print(i)
+
+# a = 'Python'
+
+# if a.startswith('f'):
+#     print(a)
+
+# a = {1:"Python",2:"CSharp",3:"PHP"}
+
+# a.pop(1)
+# print(a)
+
+# def python(*x,z=5):
+#     c = x  * z
+#     print(c)
+    
+    
+# python(2,4)
+
+
+# def my_function(**kids):
+#   print(kids)
+
+# my_function(a = 'Emil')
+
+
+# def myFun(**kwargs):
+# 	for key, value in kwargs.items():
+# 		print("%s == %s" % (key, value))
+
+
+# # Driver code
+# myFun(first='Geeks', mid='for', last='Geeks')
+
+
+# def a(x):
+#     return x + 5
+
+# print(a(10))
 
 
 
 
+
+
+# a.popitem()
+
+# print(a)
+
+
+# def call():
+    
+#     a = {'ad':'Fuad'}
+#     ad = int(input('Secim edin (1) Keys ,  (2) Values '))
+
+#     if ad == 1:
+#         print(a.keys())
+#     elif ad == 2:
+#         print(a.values())
+#     else:
+#         print('Xahis edirik  1 ve ya 2 duymesini basin ')
+        
+# call()
+
+
+# a = {'ad' : ' Emil'}
+
+# b = {'ad' : 'Aslan'}
+
+# c = {
+    
+#     'child1' : a,
+#     'child2' : b
+     
+#      }
+
+# print(c['child2']['ad'])
+
+
+# a = 'Pythonn'
+
+# print(a.count('n'))
+
+
+# a = (1,2,3,4,5)
+
+# a = list(a)
+
+# a.append(6)
+
+# a = tuple(a)
+
+# print(a)
+
+
+# person = {
+    
+#     'shexsi_melumatlar':{'ad' : 'Fuad' , 'Soyad' : 'Eliyev' , 'ata _adi' : 'Firuz' },
+    
+#     'Unvan' : ['Baki,Nax kuc. men 56'] ,
+    
+#     'Is_yeri' : ['Reabilitasiya_merkezi'] 
+    
+#         }
+
+
+
+# person['Is_yeri'].remove('Reabilitasiya_merkezi')
+
+# print(person)
+
+# def a(x,y):
+#     pass
+    
+    
+    
+    
+# print(a(2,5))
+    
+# def my_function(country = "Norway"):
+#     print("I am from " + country)
+
+# my_function("Sweden")
+# my_function("India")
+# my_function()
+# my_function("Brazil")
+
+
+# def adder(*num):
+#     sum = 0
+    
+#     for n in num:
+#         sum = sum + n
+
+#     print("Sum:",sum)
+
+# adder(3,5)
+# adder(4,5,6,7)
+# adder(1,2,3,5,6)
+
+# def my_function(*kid):
+#   print("His last name is " + kid[0])
+
+# my_function("Fuad")
+
+
+
+# i = 0
+# while i < 10:
+#     i+=1
+    
+#     if i == 4:
+#         raise TypeError('gicsen')
+#     print(i)
+
+# try:
+#     a = 5
+#     c = a / 0
+#     print(c)
+# except ZeroDivisionError:
+#     print('0-a bolmek olmaz ')
+
+
+# def a(x):
+#     return x
+   
+# print(a(4))
+
+
+# def call(a):
+#     pass
+    
+
+# def my_function(country = "Norway"):
+#     print("I am from " + country)
+
+
+
+# my_function("Sweden")
+# my_function("India")
+# my_function()
+# my_function("Brazil")
+
+# def a (x,y):
+#     c = x +y
+    
+# a()
+
+
+
+# def a(*args):
+#   print("His last name is " + str(args))
+    
+# a( 'John','Fuad')
+
+# c = lambda x,y: x ** y
+
+# print(c(2,4))
+
+
+
+
+    
+    
