@@ -412,12 +412,7 @@
 #         raise TypeError('gicsen')
 #     print(i)
 
-# try:
-#     a = 5
-#     c = a / 0
-#     print(c)
-# except ZeroDivisionError:
-#     print('0-a bolmek olmaz ')
+
 
 
 # def a(x):
@@ -456,8 +451,75 @@
 
 # print(c(2,4))
 
+# try:
+#     a = 5
+#     c = a / 0
+#     print(c)
+# except ZeroDivisionError:
+#     print('0-a bolmek olmaz ')
+
+
 
 
 
     
     
+
+
+
+
+
+
+
+# a = 5
+
+# try:
+#     c = 5 / 5
+#     print(c)
+# except ZeroDivisionError :
+#     print('0 -a bolmek olmaz')
+        
+
+
+# def a(x):
+#     print(x)
+
+
+
+# try:
+#     a(1,2)
+# except  TypeError :
+#     print('a sadece 1 argument qebul ede biler ')
+
+
+
+
+
+# def task():
+#     a = ['Fuad','Aslan','Afaq']  
+#     ad = int(input('Ad daxil edin (1) Adi silin (2) : '))
+
+#     if ad == 1:
+#         s = input('Ad daxil edin : ')
+#         a.append(s)
+#         print(a)
+#         for i in a:
+#             print(i)
+#     if ad == 2:
+#         s = input('Adi silin : ')
+#         a.remove(s)
+#         print(a)
+#         for i in a:
+#             print(i)
+            
+# task()
+
+
+
+# a = [1,2,3,4,5]
+
+
+# try:
+#     print(a[0])
+# except  IndexError :
+#     print('bu index listde yoxdur')
